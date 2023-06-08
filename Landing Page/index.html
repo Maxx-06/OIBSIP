@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="nav_container">
+      <div class="navbar">
+        <div class="name">Shopy.</div>
+
+        <div class="nav_row">
+          <ul class="nav_rows">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active">
+                <i class="ri-home-line"></i>
+                <span class="span">Home</span>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#new" class="nav_link">
+                <i class="ri-price-tag-3-line"></i>
+                <span class="span">New</span>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#collection" class="nav_link">
+                <i class="ri-compass-line"></i>
+                <span class="span">Collection</span>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#product" class="nav_link">
+                <i class="ri-t-shirt-line"></i>
+                <span class="span">Product</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="theme">
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Home SECTION -->
+    <section class="home_section section" id="home">
+      <div class="intro">
+        <div class="intro_section left">
+          <h1 class="heading">New Clothings Collection</h1>
+          <p class="intro_lines">
+            The new collection of clothing from the best brands this year
+          </p>
+          <div class="expo">
+            <span class="explore"> Explore </span>
+            <span id="arrow" class="arrow">
+              <i class="ri-arrow-right-line"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="top_img right">
+        <div class="intro_image">
+          <img src="/img/home.png" alt="" class="home_img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW SECTION -->
+    <section class="new_section  section" id="new">
+      <div class="new_section_heading">
+        <h1>New Categories</h1>
+      </div>
+      <!-- content  -->
+      <div class="new_content bottomToUp">
+        <div class="element new-1">
+          <div class="new_img"><img src="/img/new3.png" alt="" /></div>
+          <div class="new_item">Coats & Coat Sets</div>
+          <div class="new_season">
+            Winter Collection
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <div class="element new-2">
+          <div class="new_img"><img src="/img/new2.png" alt="" /></div>
+          <div class="new_item">Pant & Jackets</div>
+          <div class="new_season">
+            Winter Collection
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <div class="element new-3">
+          <div class="new_img"><img src="/img/new1.png" alt="" /></div>
+          <div class="new_item">Hoddie & Sweatshirt</div>
+          <div class="new_season">
+            Winter Collection
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTION SECTION -->
+    <section class="collection section" id="collection">
+      <h1 class="collection_title">Collection</h1>
+      <!-- male -->
+      <div class="male_collection right ">
+        <!-- <div class="right"> -->
+        <div class="male">
+          <div class="male_section">Men Collection</div>
+          <div class="male_explore">
+            Explore Clothes <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <div class="male_pic"><img src="/img/collection1.png" alt="" /></div>
+      <!-- </div> -->
+      </div>
+      <!-- female -->
+      <div class="female_collection left ">
+        <!-- <div class="left"> -->
+        <div class="female_pic"><img src="/img/collection2.png" alt="" /></div>
+        <div class="female">
+          <div class="female_section">Female Collection</div>
+          <div class="female_explore">
+            Explore Clothes <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+      <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- PRODUCT SECTION -->
+    <section class="product section" id="product">
+      <div class="best_product">
+        <h1>New Product</h1>
+      </div>
+
+      <div class="product_elements bottomToUp">
+        <div class="product_element">
+          <div class="product_img"><img src="/img/product1.png" alt="" /></div>
+          <div class="product_name">Gotland Black Jacket</div>
+          <div class="product_price">
+            $124.99<span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+
+        <div class="product_element">
+          <div class="product_img"><img src="/img/product2.png" alt="" /></div>
+          <div class="product_name">Black Sports Pants</div>
+          <div class="product_price">
+            $34.99<span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+
+        <div class="product_element">
+          <div class="product_img"><img src="/img/product3.png" alt="" /></div>
+          <div class="product_name">Knox Quilted Jacket</div>
+          <div class="product_price">
+            97.99<span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+
+        <div class="product_element">
+          <div class="product_img"><img src="/img/product4.png" alt="" /></div>
+          <div class="product_name">Blue Sports Pants</div>
+          <div class="product_price">
+            $69.99<span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands -->
+    <div class="brands_section section">
+      <div class="brands_sell"><h1>Brand We sell</h1></div>
+
+      <div class="brands right">
+        <div class="brand top">
+          <img src="/img/logo1.png" alt="" />
+        </div>
+
+        <div class="brand bottom">
+          <img src="/img/logo2.png" alt="" />
+        </div>
+
+        <div class="brand top">
+          <img src="/img/logo3.png" alt="" />
+        </div>
+
+        <div class="brand bottom">
+          <img src="/img/logo4.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer_section section ">
+      <div class="footer_contain left">
+        <div class="foot_section foot_sec_1">
+          <h4>Shop</h4>
+          <div class="shop_monologue">
+            Committed to bringing you the best clothing from popular brands
+          </div>
+        </div>
+
+        <div class="foot_section">
+          <h4>Company</h4>
+          <div class="com footer-link">Shop</div>
+          <div class="com footer-link">Category</div>
+          <div class="com footer-link">Contact Info</div>
+        </div>
+
+        <div class="foot_section">
+          <h4>Blog</h4>
+          <div class="blog footer-link">Events</div>
+          <div class="blog footer-link">Popular news</div>
+          <div class="blog footer-link">Recent news</div>
+        </div>
+
+        <div class="foot_section">
+          <h4>Office</h4>
+          <div class="office footer-link">Monday-Saturday</div>
+          <div class="office footer-link">9AM-10PM</div>
+        </div>
+
+        <div class="foot_section ">
+          <h4>Contact</h4>
+          <div class="logo">
+            <div class="contact"><i class="ri-facebook-fill"></i></div>
+            <div class="contact"><i class="ri-instagram-line"></i></div>
+            <div class="contact"><i class="ri-whatsapp-line"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      
+      <div class=" footer-link left ">MAX. All rights reserved</div>
+      <div class="terms footer-link left">Terms & Conditions</div>
+    
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
